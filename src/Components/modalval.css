@@ -1,0 +1,41 @@
+.modalBackground {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(200, 200, 200);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modalContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 12px;
+    background-color: rgb(236, 155, 155);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 20px;
+  }
+
+  .formcontrol{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+
+  .formcontrol input{
+    padding: 4px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+  }
+
+.btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
